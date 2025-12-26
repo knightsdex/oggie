@@ -1,0 +1,613 @@
+/*--------------------------------------------------------------============================================================
+[Main Stylesheet]
+
+Project: Fugu
+/*==============================
+[Table of contents]
+
+FUGU STYLESHEET
+----------------------------------
+INFINITE TEXT SLIDER 
+
+=============================================================--------------------------------------------------------------*/
+/* INFINITE TEXT SLIDER */
+.fugu-text-slider-data {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.fugu-text-slider-data h3 {
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 2px;
+  display: inline-block;
+  margin: 0 15px;
+  color: #fff;
+}
+
+.fugu-text-slider-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s;
+}
+
+.fugu-text-slider-icon i,
+.fugu-text-slider-icon path {
+  transition: all 0.4s;
+  font-size: 30px;
+}
+
+/* card */
+.fugu-card-wrap {
+  border-radius: 10px;
+  padding: 20px;
+  transition: all 0.4s;
+  position: relative;
+  background: #201c2c;
+  border: 1px solid #555555;
+}
+
+.fugu-slider-one .slick-slide {
+  margin: 2px 12px;
+}
+
+.fugu-card-thumb {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.fugu-portfolio-image {
+  overflow: hidden;
+}
+
+.fugu-card-thumb img,
+.fugu-portfolio-image img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center top;
+  transition: all 0.4s;
+}
+
+.fugu-card-wrap:hover .fugu-card-thumb img,
+.fugu-portfolio-item:hover .fugu-portfolio-image img {
+  transform: scale(1.1) rotate(3deg);
+}
+
+.fugu-card-data,
+.fugu-portfolio-content {
+  margin-top: 20px;
+}
+
+.fugu-card-data h3,
+.fugu-portfolio-content h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+  margin: 0 0 10px;
+  font-family: Inter, sans-serif;
+}
+
+.fugu-card-data p,
+.pf-pre-sale {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  opacity: 0.4;
+  margin: 0;
+}
+
+.fugu-card-footer,
+.portfolio-content-bottom {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fugu-card-footer-data span,
+.pf-mint-price span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.fugu-card-footer-data h4,
+.pf-mint-price h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.fugu-card-btn,
+.portfolio-btn {
+  background: #ffffff;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 10px 24.4px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #13111a;
+  z-index: 0;
+  transition: all 0.4s;
+  position: relative;
+}
+
+.fugu-card-wrap:hover .fugu-card-btn {
+  color: #fff;
+}
+
+.fugu-portfolio-item:hover .portfolio-btn {
+  color: #fff;
+}
+
+.fugu-card-btn:before,
+.portfolio-btn:before {
+  content: " ";
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: all 0.4s;
+  opacity: 0;
+  border-radius: 10px;
+  background: linear-gradient(225deg, #0080ff 0, #7d41ea 46.35%, #ff00d4 100%);
+}
+
+.fugu-card-wrap:hover .fugu-card-btn:before {
+  opacity: 1;
+}
+
+.fugu-portfolio-item:hover .portfolio-btn:before {
+  opacity: 1;
+}
+
+.card-slider-arrow .slick-prev,
+.card-slider-arrow .slick-next {
+  left: -30px;
+  top: 50%;
+  z-index: 9;
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+.card-slider-arrow .slick-next {
+  left: auto;
+  right: -30px;
+}
+
+.card-slider-arrow .slick-prev:focus,
+.card-slider-arrow .slick-next:focus {
+  background-color: #fff !important;
+}
+
+@media (max-width: 1185px) {
+  .card-slider-arrow .slick-prev {
+    left: -15px;
+  }
+
+  .card-slider-arrow .slick-next {
+    right: -15px;
+  }
+}
+
+.card-slider-arrow button {
+  width: 60px;
+  height: 60px;
+  color: #201c2c;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 100%;
+  background-size: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  border: 5px solid #13111a;
+  transition: all 0.4s;
+}
+
+.card-slider-arrow button:hover {
+  background-color: #ffffff;
+}
+
+@media (max-width: 1360px) {
+  .card-slider-arrow .prev-arrow,
+  .card-slider-arrow .next-arrow {
+    left: 0;
+  }
+
+  .card-slider-arrow .next-arrow {
+    left: auto;
+    right: 0;
+  }
+}
+
+.slick-prev:before,
+.slick-next:before {
+  display: none;
+}
+
+/* Fugu Button css */
+
+.fugu-btn {
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 10px;
+  padding: 15.5px 36px;
+  font-weight: 700;
+  font-family: Inter, sans-serif;
+  width: fit-content;
+  position: relative;
+  z-index: 1;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: inline-block;
+  min-width: 180px;
+  text-align: center;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+}
+
+.fugu-btn.bg-gray {
+  color: #fff;
+  background-color: #26242c;
+}
+
+.fugu-btn.active:before {
+  opacity: 1;
+}
+
+.fugu-btn:before {
+  content: " ";
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: all 0.4s;
+  opacity: 0;
+  border-radius: 10px;
+  background: linear-gradient(225deg, #0080ff 0, #7d41ea 46.35%, #ff00d4 100%);
+}
+
+.fugu-btn:hover:before {
+  opacity: 1;
+}
+
+.fugu-btn.active:hover:before {
+  width: 200%;
+}
+
+.fugu-outline-btn {
+  padding: 2px;
+  border-radius: 10px;
+  display: inline-block;
+  color: #fff !important;
+  background: linear-gradient(to right, #ff00d4, #7d41ea, #0080ff);
+}
+
+.fugu-outline-btn span {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 15.5px 38px;
+  border-radius: 10px;
+  background-color: #13111a;
+  transition: all 0.4s;
+}
+
+.fugu-outline-btn:hover span {
+  background-color: transparent;
+}
+
+/*test slider*/
+.fugu-text-slider-section {
+  padding: 22px 0;
+  overflow: hidden;
+  background: linear-gradient(225deg, #0080ff 0, #7d41ea 46.35%, #ff00d4 100%);
+}
+
+.fugu-text-slider-data {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  flex-direction: row-reverse;
+}
+
+.fugu-text-slider-data h3 {
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 2px;
+  display: inline-block;
+  margin: 0 15px;
+  color: #fff;
+  line-height: 36px;
+}
+
+@media (max-width: 600px) {
+  .fugu-text-slider-data {
+    text-align: center;
+    display: block !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .fugu-text-slider-icon {
+    margin-bottom: 10px;
+  }
+}
+
+/*fugu nft slider v2*/
+
+.fugu-card-wrap.fugu-card2 {
+  background: #fff;
+  border: 3px solid #13111a;
+  border-radius: 3px;
+  padding: 18px;
+}
+
+.fugu-card-wrap.fugu-card2:before {
+  content: none;
+}
+
+.fugu-card-wrap.fugu-card2 .fugu-card-thumb img {
+  border-radius: 3px;
+}
+
+.fugu-card-wrap.fugu-card2 .fugu-card-data h3 {
+  color: #13111a;
+}
+
+.fugu-card-wrap.fugu-card2 .fugu-card-data p {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+  opacity: 1;
+  color: #13111a;
+}
+
+.fugu-card-wrap.fugu-card2 .fugu-card-data p img {
+  margin-right: 8px;
+}
+
+.fugu-card-wrap.fugu-card2 .fugu-card-footer-data h4 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #13111a;
+  opacity: 0.8;
+}
+
+.fugu-card-wrap.fugu-card2 .fugu-card-footer .fugu-btn {
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: rgba(19, 17, 26, 0.4);
+  background-color: rgba(19, 17, 26, 0.1);
+}
+
+.fugu-card-wrap.fugu-card2 .fugu-card-footer .fugu-btn img {
+  opacity: 0.3;
+  margin-right: 7px;
+}
+
+.fugu-card-wrap.fugu-card2 .fugu-card-footer .fugu-btn:before {
+  content: none;
+}
+
+.fugu-card-wrap.fugu-card2 .fugu-card-footer .fugu-btn .red-heart {
+  display: none;
+}
+
+.fugu-card-wrap.fugu-card2 .fugu-card-footer .fugu-btn.dark-btn {
+  color: #fff;
+  background-color: #13111a;
+}
+
+.fugu-card-wrap.fugu-card2 .fugu-card-footer .fugu-btn.dark-btn img {
+  opacity: 1;
+}
+
+.fugu-card-wrap.fugu-card2 .fugu-card-footer .fugu-btn.dark-btn .red-heart {
+  display: block;
+}
+
+.fugu-card-wrap.fugu-card2 .fugu-card-footer .fugu-btn.dark-btn .black-heart {
+  display: none;
+}
+
+.fugu-card-footer .fugu-btn {
+  min-width: inherit;
+  height: auto;
+}
+
+.fugu-nft-slider .slick-slide {
+  margin: 0 12px;
+}
+
+.fugu-card-wrap.fugu-card2 .fugu-card-footer .fugu-btn img {
+  opacity: 0.3;
+  margin-right: 7px;
+}
+
+.fugu-card-wrap.fugu-card2 .fugu-card-footer .fugu-btn .red-heart {
+  display: none;
+}
+
+.fugu-btn.btn-sm {
+  font-size: 14px;
+  padding: 8px 23px;
+}
+
+.fugu-card-wrap.fugu-card2 .fugu-card-data p svg {
+  margin-right: 8px;
+}
+
+/* elementor extra css hero thumb new css add */
+.fugu-hero-thumb {
+  transform: rotate(3deg);
+  padding-left: 150px;
+}
+
+@media (max-width: 1399px) {
+  .fugu-hero-thumb {
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fugu-hero-thumb {
+    padding-left: 0px;
+    transform: rotate(0deg);
+  }
+}
+
+.fugu-footer-address li.elementor-icon-list-item {
+  display: flex;
+}
+
+/*fugo v2 counter section*/
+.fugo-counter-section .elementor-counter {
+  width: 250px;
+  height: 250px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  display: flex;
+  padding: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media (max-width: 1207px) {
+  .fugo-counter-section .elementor-counter {
+    width: 210px;
+    height: 210px;
+    padding: 20px;
+  }
+}
+
+/*service details iconbox*/
+
+.fugu-iconbox-border {
+  position: relative;
+}
+
+.fugu-iconbox-border:before {
+  content: "";
+  top: 45px;
+  left: 50%;
+  width: calc(100% - 30%);
+  height: 1px;
+  position: absolute;
+  transform: translateX(-50%);
+  border: 1px dashed rgba(19, 17, 26, 0.1);
+}
+
+@media (max-width: 1023px) {
+  .fugu-iconbox-border:before {
+    width: calc(100% - 50%);
+  }
+}
+
+@media (max-width: 767px) {
+  .fugu-iconbox-border:before {
+    content: none;
+  }
+}
+
+/*portfolio*/
+a.fugu-portfolio-item.style-two {
+  position: relative;
+}
+
+a.fugu-portfolio-item.style-two:before {
+  content: "";
+  left: 0;
+  top: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  mix-blend-mode: multiply;
+  border-radius: 10px;
+  transition: all 0.4s;
+  background: linear-gradient(180deg, rgba(19, 17, 26, 0) 0, #13111a 100%);
+}
+a.fugu-portfolio-item.style-two:hover:before {
+  opacity: 1;
+}
+a.fugu-portfolio-item.style-two:hover
+  .fugu-portfolio-content.content-postion-on-image {
+  left: 30px;
+  opacity: 1;
+  visibility: visible;
+}
+.fugu-portfolio-content.content-postion-on-image {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s;
+}
+
+/*testimonial page*/
+.style-two .testi-meta {
+  display: flex;
+  align-items: center;
+}
+.style-two .testi-image {
+  flex-shrink: 0;
+}
+
+/*coming soon*/
+.coming-soong-page .mas-addons-countdown li {
+  width: 200px;
+  height: 200px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+@media (max-width: 1023px) {
+  .coming-soong-page .mas-addons-countdown li {
+    width: 170px;
+    height: 170px;
+  }
+}
+
+.coming-soong-page .mas-addons-countdown li:nth-child(2),
+.coming-soong-page .mas-addons-countdown li:nth-child(3),
+.coming-soong-page .mas-addons-countdown li:nth-child(4) {
+  margin-left: -30px;
+}
+@media (max-width: 767px) {
+  .coming-soong-page .mas-addons-countdown {
+    justify-content: center;
+  }
+  .coming-soong-page .mas-addons-countdown li:nth-child(2),
+  .coming-soong-page .mas-addons-countdown li:nth-child(3),
+  .coming-soong-page .mas-addons-countdown li:nth-child(4) {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,218 @@
+.elementor-2354 .elementor-element.elementor-element-a4830d9 {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+.elementor-2354
+  .elementor-element.elementor-element-a4830d9
+  > .elementor-background-overlay {
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.elementor-2354 .elementor-element.elementor-element-a4830d9.reveal-sticky {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.1);
+}
+.elementor-bc-flex-widget
+  .elementor-2354
+  .elementor-element.elementor-element-4689be4.elementor-column
+  .elementor-widget-wrap {
+  align-items: center;
+}
+.elementor-2354
+  .elementor-element.elementor-element-4689be4.elementor-column.elementor-element[data-element_type="column"]
+  > .elementor-widget-wrap.elementor-element-populated {
+  align-content: center;
+  align-items: center;
+}
+.elementor-bc-flex-widget
+  .elementor-2354
+  .elementor-element.elementor-element-a725b78.elementor-column
+  .elementor-widget-wrap {
+  align-items: center;
+}
+.elementor-2354
+  .elementor-element.elementor-element-a725b78.elementor-column.elementor-element[data-element_type="column"]
+  > .elementor-widget-wrap.elementor-element-populated {
+  align-content: center;
+  align-items: center;
+}
+.elementor-2354 .elementor-element.elementor-element-4ef9499 .navbar {
+  justify-content: flex-end;
+}
+.elementor-2354
+  .elementor-element.elementor-element-4ef9499
+  .fugu-main-menu-wrap
+  .fugu-header-buttons {
+  justify-content: flex-end;
+}
+.elementor-2354
+  .elementor-element.elementor-element-4ef9499
+  .menu-style-inline.navbar:not(.active)
+  .main-navigation
+  ul.navbar-nav
+  > li
+  > a,
+.elementor-2354
+  .elementor-element.elementor-element-4ef9499
+  .menu-style-inline.navbar:not(.active)
+  .main-navigation
+  ul.navbar-nav
+  > .menu-item-has-children
+  > a
+  .dropdownToggle {
+  color: #13111a;
+}
+.elementor-2354
+  .elementor-element.elementor-element-4ef9499
+  .menu-style-inline.navbar:not(.active)
+  .main-navigation
+  ul.navbar-nav
+  > .menu-item-has-children
+  > a
+  .dropdownToggle {
+  color: #13111a;
+}
+.elementor-2354
+  .elementor-element.elementor-element-4ef9499
+  .navbar-toggler.open-menu
+  .navbar-toggler-icon
+  svg {
+  width: 29px;
+}
+.elementor-2354
+  .elementor-element.elementor-element-4ef9499
+  .navbar-toggler.close-menu
+  .navbar-toggler-icon
+  svg {
+  width: 29px;
+}
+.elementor-2354
+  .elementor-element.elementor-element-4ef9499
+  .navbar-toggler.open-menu
+  .navbar-toggler-icon
+  i {
+  font-size: 29px;
+}
+.elementor-2354
+  .elementor-element.elementor-element-4ef9499
+  .navbar-toggler.open-menu
+  .navbar-toggler-icon {
+  margin-right: 25px;
+}
+.elementor-bc-flex-widget
+  .elementor-2354
+  .elementor-element.elementor-element-330b5fb.elementor-column
+  .elementor-widget-wrap {
+  align-items: center;
+}
+.elementor-2354
+  .elementor-element.elementor-element-330b5fb.elementor-column.elementor-element[data-element_type="column"]
+  > .elementor-widget-wrap.elementor-element-populated {
+  align-content: center;
+  align-items: center;
+}
+.elementor-2354
+  .elementor-element.elementor-element-330b5fb.elementor-column
+  > .elementor-widget-wrap {
+  justify-content: flex-end;
+}
+.elementor-2354 .elementor-element.elementor-element-2cfc6ca {
+  text-align: right;
+}
+.elementor-2354
+  .elementor-element.elementor-element-2cfc6ca
+  .mas-addons-btn-wrapper
+  .btn-icon {
+  border-radius: 50px 50px 50px 50px;
+}
+.elementor-2354 .elementor-element.elementor-element-2cfc6ca .mas-addons-btn {
+  font-family: "Inter", Sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #13111a;
+  background-color: #32e7b1;
+  border-radius: 50px 50px 50px 50px;
+  padding: 12px 35px 12px 35px;
+}
+body.rtl
+  .elementor-2354
+  .elementor-element.elementor-element-2cfc6ca
+  .mas-addons-btn {
+  border-radius: 50px 50px 50px 50px;
+  padding: 12px 35px 12px 35px;
+}
+.elementor-2354
+  .elementor-element.elementor-element-2cfc6ca
+  .mas-addons-btn:hover {
+  color: #ffffff;
+}
+.elementor-2354
+  .elementor-element.elementor-element-2cfc6ca
+  .mas-addons-btn:hover,
+.elementor-2354
+  .elementor-element.elementor-element-2cfc6ca
+  .all-side
+  span.hover-animation {
+  background-color: #13111a;
+}
+@media (max-width: 1024px) {
+  .elementor-bc-flex-widget
+    .elementor-2354
+    .elementor-element.elementor-element-a725b78.elementor-column
+    .elementor-widget-wrap {
+    align-items: center;
+  }
+  .elementor-2354
+    .elementor-element.elementor-element-a725b78.elementor-column.elementor-element[data-element_type="column"]
+    > .elementor-widget-wrap.elementor-element-populated {
+    align-content: center;
+    align-items: center;
+  }
+  .elementor-2354 .elementor-element.elementor-element-4ef9499 .navbar {
+    justify-content: flex-end;
+  }
+}
+@media (min-width: 768px) {
+  .elementor-2354 .elementor-element.elementor-element-4689be4 {
+    width: 11.742%;
+  }
+  .elementor-2354 .elementor-element.elementor-element-a725b78 {
+    width: 59.258%;
+  }
+  .elementor-2354 .elementor-element.elementor-element-330b5fb {
+    width: 28.664%;
+  }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  .elementor-2354 .elementor-element.elementor-element-4689be4 {
+    width: 18%;
+  }
+  .elementor-2354 .elementor-element.elementor-element-a725b78 {
+    width: 54%;
+  }
+  .elementor-2354 .elementor-element.elementor-element-330b5fb {
+    width: 28%;
+  }
+}
+@media (max-width: 767px) {
+  .elementor-2354 .elementor-element.elementor-element-4689be4 {
+    width: 50%;
+  }
+  .elementor-2354 .elementor-element.elementor-element-a725b78 {
+    width: 50%;
+  }
+  .elementor-2354 .elementor-element.elementor-element-4ef9499 .navbar {
+    justify-content: flex-end;
+  }
+  .elementor-2354
+    .elementor-element.elementor-element-4ef9499
+    .navbar-toggler.open-menu
+    .navbar-toggler-icon {
+    margin-right: 10px;
+  }
+} /* Start custom CSS for fugu-main-menu, class: .elementor-element-4ef9499 */
+.menu-style-flyout.fugu-main-menu-wrap .navbar-inner .navbar-toggler-icon svg {
+  width: 30px;
+}
+
+.admin-bar .menu-style-flyout .navbar-inner .navbar-toggler {
+  padding-top: 40px;
+} /* End custom CSS */

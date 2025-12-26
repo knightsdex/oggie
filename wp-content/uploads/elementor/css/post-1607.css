@@ -1,0 +1,179 @@
+.elementor-1607
+  .elementor-element.elementor-element-81ffc9e:not(.elementor-motion-effects-element-type-background),
+.elementor-1607
+  .elementor-element.elementor-element-81ffc9e
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-color: #13111a;
+}
+.elementor-1607 .elementor-element.elementor-element-81ffc9e {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+.elementor-1607
+  .elementor-element.elementor-element-81ffc9e
+  > .elementor-background-overlay {
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.elementor-1607 .elementor-element.elementor-element-81ffc9e.reveal-sticky {
+  background-color: #13111a;
+}
+.elementor-bc-flex-widget
+  .elementor-1607
+  .elementor-element.elementor-element-62c7ead.elementor-column
+  .elementor-widget-wrap {
+  align-items: center;
+}
+.elementor-1607
+  .elementor-element.elementor-element-62c7ead.elementor-column.elementor-element[data-element_type="column"]
+  > .elementor-widget-wrap.elementor-element-populated {
+  align-content: center;
+  align-items: center;
+}
+.elementor-1607 .elementor-element.elementor-element-fd59a1e .navbar {
+  justify-content: flex-end;
+}
+.elementor-1607
+  .elementor-element.elementor-element-fd59a1e
+  .fugu-main-menu-wrap
+  .fugu-header-buttons {
+  justify-content: flex-end;
+}
+.elementor-1607
+  .elementor-element.elementor-element-fd59a1e
+  .menu-style-inline.navbar:not(.active)
+  .main-navigation
+  ul.navbar-nav
+  > li
+  > a,
+.elementor-1607
+  .elementor-element.elementor-element-fd59a1e
+  .menu-style-inline.navbar:not(.active)
+  .main-navigation
+  ul.navbar-nav
+  > .menu-item-has-children
+  > a
+  .dropdownToggle {
+  color: #ffffff;
+}
+.elementor-1607
+  .elementor-element.elementor-element-fd59a1e
+  .menu-style-inline.navbar:not(.active)
+  .main-navigation
+  ul.navbar-nav
+  > .menu-item-has-children
+  > a
+  .dropdownToggle {
+  color: #ffffff;
+}
+.elementor-1607
+  .elementor-element.elementor-element-fd59a1e
+  .navbar-toggler.open-menu
+  .navbar-toggler-icon
+  svg {
+  width: 29px;
+}
+.elementor-1607
+  .elementor-element.elementor-element-fd59a1e
+  .navbar-toggler.close-menu
+  .navbar-toggler-icon
+  svg {
+  width: 29px;
+}
+.elementor-1607
+  .elementor-element.elementor-element-fd59a1e
+  .navbar-toggler.open-menu
+  .navbar-toggler-icon
+  i {
+  font-size: 29px;
+}
+.elementor-1607
+  .elementor-element.elementor-element-fd59a1e
+  .navbar-toggler.open-menu
+  .navbar-toggler-icon {
+  margin-right: 25px;
+}
+.elementor-bc-flex-widget
+  .elementor-1607
+  .elementor-element.elementor-element-ac5f74f.elementor-column
+  .elementor-widget-wrap {
+  align-items: center;
+}
+.elementor-1607
+  .elementor-element.elementor-element-ac5f74f.elementor-column.elementor-element[data-element_type="column"]
+  > .elementor-widget-wrap.elementor-element-populated {
+  align-content: center;
+  align-items: center;
+}
+.elementor-1607
+  .elementor-element.elementor-element-ac5f74f.elementor-column
+  > .elementor-widget-wrap {
+  justify-content: flex-end;
+}
+.elementor-1607
+  .elementor-element.elementor-element-2e3dfef
+  .fugu-button-wraper {
+  text-align: right;
+}
+.elementor-1607 .elementor-element.elementor-element-2e3dfef .fugu-btn {
+  padding: 10.5px 30px 10.5px 30px;
+}
+@media (max-width: 1024px) {
+  .elementor-bc-flex-widget
+    .elementor-1607
+    .elementor-element.elementor-element-2c7080d.elementor-column
+    .elementor-widget-wrap {
+    align-items: center;
+  }
+  .elementor-1607
+    .elementor-element.elementor-element-2c7080d.elementor-column.elementor-element[data-element_type="column"]
+    > .elementor-widget-wrap.elementor-element-populated {
+    align-content: center;
+    align-items: center;
+  }
+  .elementor-1607
+    .elementor-element.elementor-element-2e3dfef
+    .fugu-button-wraper {
+    text-align: right;
+  }
+}
+@media (min-width: 768px) {
+  .elementor-1607 .elementor-element.elementor-element-62c7ead {
+    width: 17.196%;
+  }
+  .elementor-1607 .elementor-element.elementor-element-2c7080d {
+    width: 63.77%;
+  }
+  .elementor-1607 .elementor-element.elementor-element-ac5f74f {
+    width: 18.698%;
+  }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  .elementor-1607 .elementor-element.elementor-element-62c7ead {
+    width: 18%;
+  }
+  .elementor-1607 .elementor-element.elementor-element-2c7080d {
+    width: 54%;
+  }
+  .elementor-1607 .elementor-element.elementor-element-ac5f74f {
+    width: 28%;
+  }
+}
+@media (max-width: 767px) {
+  .elementor-1607 .elementor-element.elementor-element-62c7ead {
+    width: 50%;
+  }
+  .elementor-1607 .elementor-element.elementor-element-2c7080d {
+    width: 50%;
+  }
+  .elementor-1607
+    .elementor-element.elementor-element-fd59a1e
+    > .elementor-widget-container {
+    margin: 0px 10px 0px 0px;
+  }
+  .elementor-1607
+    .elementor-element.elementor-element-fd59a1e
+    .navbar-toggler.open-menu
+    .navbar-toggler-icon {
+    margin-right: 0px;
+  }
+}
